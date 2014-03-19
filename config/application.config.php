@@ -12,16 +12,15 @@ return array(
 		'modules' => array(
 				'Application',
 				'Project',
-			'ZendDeveloperTools',
-			'Album',
-			'Simplemodule',
-			
-			'Checklist',
-			'Cheetara',
-			'Contracts',
-			'ScnSocialAuth',
-			'ZfcBase',
-			'ZfcUser'
+				'ZendDeveloperTools',
+				'Album',
+				'Simplemodule',
+				'Checklist',
+				'Cheetara',
+				'Contracts',
+				'ScnSocialAuth',
+				'ZfcBase',
+				'ZfcUser'	
 	),
 
     'module_listener_options' => array(
