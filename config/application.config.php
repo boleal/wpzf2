@@ -11,7 +11,7 @@ $modpro = array(
 		// General
 		'Application',
 		'Project',
-		'Contracts'
+		
 );
 if ($env == 'development')
 {
@@ -20,7 +20,7 @@ if ($env == 'development')
             'Application',
             'Simplemodule',
             'Album',
-            'Checklist',
+            'Checklist',	
             'Project',
             'Contracts',
             'ZendDeveloperTools',

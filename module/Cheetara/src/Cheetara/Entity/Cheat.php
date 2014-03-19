@@ -161,7 +161,7 @@ class Cheat implements CheatInterface
      * @param int $parent
      * @return CheatInterface
      */
-    public function setState($parent)
+    public function setParent($parent)
     {
         $this->parent = $parent;
         return $this;
