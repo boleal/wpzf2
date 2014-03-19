@@ -67,7 +67,7 @@ interface CheatInterface
     /**
      * Get filename.
      *
-     * @return string filename
+     * @return string 
      */
     public function getFilename();
 
@@ -90,7 +90,7 @@ interface CheatInterface
      * Set parent.
      *
      * @param int $parent
-     * @return CategoryInterface
+     * @return CheatInterface
     */
     public function setParent($parent);
 
