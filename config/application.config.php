@@ -16,19 +16,13 @@ if ($env == 'development')
 {
 	// Modules Debug
 	$moddev =array(
-            'Application',
-            'Simplemodule',
-            'Album',
-            'Checklist',
-            'Project',
-            'Contracts',
-            'ZendDeveloperTools',
-            'ScnSocialAuth',
-            'ZfcBase',
-            'ZfcUser',
-            'Cheetara'
-        );
-        }
+			'ZendDeveloperTools',
+			'Album',
+			'Simplemodule',
+			'Checklist',
+			'Cheetara',
+	);
+}
 else
 	$moddev=array();
 $modules=array_merge($modpro,$moddev);

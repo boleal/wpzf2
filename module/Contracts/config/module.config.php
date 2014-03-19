@@ -42,4 +42,8 @@ return array(
             ),
         ),
     ),
+		
+		'navigation' => array(
+				'default' => include('menu.config.php')
+		),
 );
